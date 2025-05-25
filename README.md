@@ -1,7 +1,5 @@
-Here's a polished `README.md` with your image link properly integrated:
 
-```markdown
-# 🏥 Hospital Management Dashboard
+# [🏥 Hospital Management Dashboard]
 
 ![Dashboard Preview](https://raw.githubusercontent.com/NandanAdi/Hospital_Dashboard/main/public/image.png)
 
