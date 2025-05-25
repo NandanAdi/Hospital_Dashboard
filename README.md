@@ -89,28 +89,6 @@ src/
    ```
 5. Open a pull request
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) for details.
-
----
 
 > **Note**: Requires Node.js ≥16.0 and npm ≥8.0  
-> Live demo: [GitHub Pages Link](#) *(add when deployed)*
 ```
-
-Key improvements:
-1. Added proper image link from your repository
-2. Organized tech stack in a clean table format
-3. Included specific version requirements
-4. Added placeholder for live demo link
-5. Improved feature descriptions with icons
-6. Structured the contribution steps clearly
-
-To use:
-1. Copy this entire content
-2. Paste into your `README.md` file
-3. Update the "Live demo" link when deployed
-4. Add any additional credits/acknowledgments if needed
-
-Would you like me to add any specific deployment instructions or additional sections?
