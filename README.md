@@ -5,7 +5,7 @@ Here's a comprehensive `README.md` for your Hospital Dashboard project:
 
 A modern healthcare dashboard built with React, Vite, and Tailwind-inspired CSS for managing patient appointments, health metrics, and medical activities.
 
-<img src="./public/image.png" width="600" alt="Dashboard Preview">
+![Dashboard Preview]([https://raw.githubusercontent.com/NandanAdi/Hospital_Dashboard/main/public/image.png])
 
 ## ✨ Features
 
