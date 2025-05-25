@@ -1,0 +1,131 @@
+.anatomy-container {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  height: fit-content;
+}
+
+.anatomy-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.anatomy-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.anatomy-subtitle {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.anatomy-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.human-body-container {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.human-body {
+  position: relative;
+  width: 12rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.human-body-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.anatomy-image {
+  width: 250px;  /* Set exact width */
+  height: 400px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  border-radius: 8px;
+}
+
+.heart-indicator {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.heart-badge {
+  background: #1d4ed8;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heart-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: currentColor;
+}
+
+.healthy-log-btn {
+  margin-top: 1rem;
+  background: #22d3ee;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.healthy-log-btn:hover {
+  background: #0891b2;
+}
+
+.health-status-container {
+  flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .anatomy-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .human-body {
+    width: 10rem;
+    height: 16rem;
+  }
+  
+  .human-body-svg {
+    width: 100px;
+    height: 240px;
+  }
+}

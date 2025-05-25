@@ -1,0 +1,139 @@
+.header {
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+  }
+  
+  .logo-health {
+    color: #22d3ee;
+  }
+  
+  .search-container {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    width: 16rem;
+    outline: none;
+    transition: all 0.2s;
+  }
+  
+  .search-input:focus {
+    ring: 2px;
+    ring-color: #22d3ee;
+    border-color: #22d3ee;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .notification-container {
+    position: relative;
+  }
+  
+  .notification-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #6b7280;
+    cursor: pointer;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -0.25rem;
+    right: -0.25rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #2563eb;
+    border-radius: 50%;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+  }
+  
+  .user-avatar {
+    width: 2rem;
+    height: 2rem;
+    background-image: url('../assets/Head-removebg-preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .add-button {
+    width: 2rem;
+    height: 2rem;
+    background: #22d3ee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .add-icon {
+    width: 1rem;
+    height: 1rem;
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .header {
+      padding: 1rem;
+      flex-wrap: wrap;
+      height: auto;
+    }
+    
+    .header-left {
+      flex: 1;
+      gap: 1rem;
+    }
+    
+    .search-input {
+      width: 12rem;
+    }
+  }
