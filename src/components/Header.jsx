@@ -1,6 +1,5 @@
 import React from 'react';
 import { Search, Bell, Plus } from 'lucide-react';
-import Head from '../assets/Head-removebg-preview.png'
 import './Header.css';
 
 const Header = () => {
@@ -27,7 +26,7 @@ const Header = () => {
         </div>
         <div className="user-section">
           <div className="user-avatar">
-            {/* <span></span> */}
+            <span>AD</span>
           </div>
           <div className="add-button">
             <Plus className="add-icon" />
