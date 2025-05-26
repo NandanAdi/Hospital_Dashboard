@@ -89,4 +89,3 @@ src/
 
 
 > **Note**: Requires Node.js ≥16.0 and npm ≥8.0  
-```
