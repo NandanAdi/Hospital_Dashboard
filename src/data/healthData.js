@@ -1,3 +1,6 @@
+
+
+// Dashbord Health Bars
 export const healthStatusData = [
   {
     id: 'lungs',
@@ -25,6 +28,8 @@ export const healthStatusData = [
   }
 ];
 
+// Calendar Part
+
 export const calendarData = {
   month: 'October 2021',
   days: [
@@ -37,6 +42,8 @@ export const calendarData = {
     { date: 31, day: 'Sun', appointments: ['09:00', '10:00', '11:00'] }
   ]
 };
+
+// Appointment Part
 
 export const appointmentCards = [
   {
@@ -56,6 +63,8 @@ export const appointmentCards = [
     color: '#f59e0b'
   }
 ];
+
+// Schedule Part
 
 export const upcomingSchedule = [
   {

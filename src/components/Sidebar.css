@@ -54,7 +54,7 @@
     font-weight: 500;
   }
   
-  /* Responsive */
+
   @media (max-width: 1024px) {
     .sidebar {
       width: 100%;

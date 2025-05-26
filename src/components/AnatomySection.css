@@ -56,7 +56,7 @@
 }
 
 .anatomy-image {
-  width: 250px;  /* Set exact width */
+  width: 250px; 
   height: 400px;
   object-fit: contain;
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
@@ -111,7 +111,7 @@
   flex: 1;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .anatomy-content {
     flex-direction: column;

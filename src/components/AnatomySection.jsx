@@ -1,7 +1,7 @@
 import React from 'react';
 import HealthStatusCards from './HealthStatusCards';
 import { Heart } from 'lucide-react';
-import AnatomyImage from '/public/Anatomy-removebg-preview.png';
+import AnatomyImage from '/Anatomy-removebg-preview.png';
 import './AnatomySection.css';
 
 const HumanBodySVG = () => (
