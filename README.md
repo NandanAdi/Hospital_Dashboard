@@ -1,5 +1,5 @@
 
-# [🏥 Hospital Management Dashboard]
+# [🏥 Hospital Management Dashboard](https://hospital-dashboard-proj.vercel.app/)
 
 ![Dashboard Preview](https://raw.githubusercontent.com/NandanAdi/Hospital_Dashboard/main/public/image.png)
 
